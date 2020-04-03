@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "Example1",
+    "name": "example1",
+    "url": "#",
+    "instances": 14,
+    "attributes": 3,
+    "instancesLocate": "data/example1/example1.data",
+    "attributesLocate": "data/example1/example1.names"
+  },
+  {
+    "dataset": "Iris",
+    "name": "iris",
+    "url": "http://archive.ics.uci.edu/ml/datasets/Iris",
+    "instances": 150,
+    "attributes": 4,
+    "instancesLocate": "data/iris/iris.data",
+    "attributesLocate": "data/iris/iris.names"
+  },
+  {
+    "dataset": "Adult",
+    "name": "adult",
+    "url": "http://archive.ics.uci.edu/ml/datasets/Adult",
+    "instances": 48842,
+    "attributes": 14,
+    "instancesLocate": "data/adult/adult.data",
+    "attributesLocate": "data/adult/adult.names"
+  },
+  {
+    "dataset": "Car Evaluation",
+    "name": "car",
+    "url": "http://archive.ics.uci.edu/ml/datasets/Car+Evaluation",
+    "instances": 1728,
+    "attributes": 6,
+    "instancesLocate": "data/car/car.data",
+    "attributesLocate": "data/car/car.names"
+  }
+]

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1rem;
+    line-height: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+#heading {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+select, button{
+    padding: 0.2rem;
+}
+
+table{
+    line-height: 1.5rem;
+}
+
+td{
+    padding: 0.2rem 1rem;
+    border: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: hotpink;
+    color: black;
+}
+
+tr:nth-child(odd){
+    background-color: lightgrey;
+    color: black;
+}
+
+button {
+    padding : 0.5rem 2rem;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color:lightgreen;
+    transition-duration: 0.5s;
+}

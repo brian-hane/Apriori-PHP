@@ -1,0 +1,47 @@
+html{
+    background-color: #f9f9f9;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.subtitle{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+th.table-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table#dataset-table, table#dataset-table th, table#dataset-table td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 0;
+}
+table#dataset-table{
+    width: 100%;
+}
+
+table#dataset-table tr{
+    height: 40px;
+}
+
+a.dataset-download{
+    text-decoration: none;
+    color: black;
+    width: 160px;
+    padding: 5px 20px;
+    background-color: #e0e0e0;
+}
+
